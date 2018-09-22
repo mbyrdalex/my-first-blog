@@ -1,6 +1,8 @@
 
 from django.shortcuts import render
 from django.utils import timezone
+
+from blog.forms import PostForm
 from .models import Post
 from django.shortcuts import render, get_object_or_404
 
